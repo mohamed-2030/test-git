@@ -1,4 +1,7 @@
 
-const title = document.querySelector('.title');
+const some = (a,b) =>{
+    return a+b;
+}
 
-console.log('changed');
+const result = some(a,b);
+console.log(result);
